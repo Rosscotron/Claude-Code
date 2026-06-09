@@ -4,17 +4,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Current state
 
-This repository is currently a placeholder. It contains only `README.md`
-("Repo for Claude code") and has no source code, build tooling, tests, or
-dependency manifests yet.
+This is an early-stage learning project written in Python 3 (3.11+).
 
-As a result, there are no build, lint, test, or run commands to document at
-this time. When the project gains real code, update this file with:
+## Commands
 
-- How to install dependencies, build, lint, and run the project.
-- How to run the full test suite and a single test.
-- The high-level architecture (the relationships across files/modules that
-  aren't obvious from reading any single file).
+- Run the main program: `python3 hello.py`
 
-Keep this section honest — do not add commands or workflows until they
-actually exist in the repo.
+## Structure
+
+- `hello.py` — Entry point. Defines a `greet(name)` function and prints a
+  greeting when run directly.
+
+As the project grows, update this file with new run/build/test commands and
+any architecture worth explaining across files.
